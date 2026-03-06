@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <tiltle>TP java script</tiltle>
+</head>
+
+<body>
+
+    <h1>exercices 5</h1>
+
+    <h1> Ma fiche de presentation</h1>
+
+    <p id="nomcomplet">...</p>
+    <p id="age">...</p>
+    <p id="ville">...</p>
+    <p id="presentation">...</p>
+
+    <script>
+
+        let prenom = "wahiba";
+
+        let nom = "zitouni"
+
+        let age = "20";
+
+        let ville = "Marrakech";
+
+        document.getElementById("nomcomplet").innerHTML = prenom + " " + nom;
+
+        document.getElementById("age").innerHTML = "Age : " + age + "ans";
+
+        document.getElementById("ville").innerHTML = "ville : " + ville;
+
+        document.getElementById("presentation").innerHTML =
+            `Je m'appelle ${prenom} ${nom}, j'ai ${age} ans et j'habite à  ${ville}.`;
+
+        document.title = "Fiche de " + prenom;
+
+    </script>
+
+</body>
+
+</html>
