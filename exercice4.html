@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <tiltle>TP java script</tiltle>
+</head>
+
+<body>
+
+    <h1>exercices 4</h1>
+
+    <script>
+
+        let prenom = window.prompt("Quel est votre prenom ?");
+
+        let age = window.prompt("Quel est votre age ?");
+
+        age = Number(age);
+
+        let anneeactuelle = 2026;
+
+        let anneeNaissance = anneeActuelle - age;
+
+        console.log('Bonjour ${prenom}, vous ètes nè(e) vers ${annneeNaissance}.');
+
+        let confirmation = window.confirm("voulez-vous afficher vos information dans la console ?");
+
+        if (confirmation === true) {
+
+            console.log("Prenom =", prenom);
+            console.log("Age =", age);
+            console.log("Annee de naissance =", anneeNaissance);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
